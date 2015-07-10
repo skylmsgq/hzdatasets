@@ -1,0 +1,16 @@
+=======hzweather.csv======
+
+T	Temperatura media (°C)
+TM	Temperatura maximun (°C)
+Tm	Temperatura minimum (°C)
+SLP	Atmospheric pressure at sea level (hPa)
+H	Humedad relative Media (%)
+PP	Total precipitation of rain and / or melted snow (mm)
+VV	Media visibility (Km)
+V	Mean wind speed (Km / h)
+VM	Maximum sustained wind speed (Km / h)
+VG	Maximum speed of wind (km / h)
+RA	Indicates if there was rain or drizzle (In the monthly average, it rained all day)
+SN	Indicates if it snowed (In the monthly average, it snowed all day)
+TS	Indicates whether there was Storm (In the monthly average Total days with thunderstorm)
+FG	Indicates if there was fog (In the monthly average Total days with fog)

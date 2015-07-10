@@ -1,0 +1,30 @@
+This folder contains files to parse mobile cell location from minigps.net.
+
+Scripts
+---------
+
+minigps.py: main script to parse cell location
+
+parse_result.py: output the invalid pair for another try
+
+parse_valid.py: output all valid results for final version (appended  mode)
+
+
+Data
+--------
+
+input: a file of LAC-CID pairs. Each line records a pair seperated by tabular ('\t') symbole.
+
+    55123	9690
+    55046	4668
+    55046	9172
+
+output: parse cell location latitude and longitude as well as with POI information.
+
+    55123;9690;{"lat":28.004981994628906,"lon":120.70042419433594,"cause":"OK","address":"***************","map":"baidu","status":0}
+
+Copyright
+--------
+
+2014, Omnilab, sjtu.
+http://omnilab.sjtu.edu.cn
